@@ -501,7 +501,7 @@ internal static class Program1
 
         request.Proxy = myproxy;
 
-        TwoCaptcha.TwoCaptcha solver = new TwoCaptcha.TwoCaptcha("b9d54eedc012d87e816a77617326b4cd");
+        TwoCaptcha.TwoCaptcha solver = new TwoCaptcha.TwoCaptcha("");
         HCaptcha captcha = new HCaptcha();
 
 
